@@ -1,0 +1,139 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <title>Home Page</title>
+        <link rel="stylesheet" type="text/css" href="homepageStyles.css">
+        <meta name="viewport" charset="utf-8" content="width=device-width, initial-scale=1"> 
+    </head>
+    <body> 
+        <header>
+            <h1>Welcome to Our Streaming Guide!</h1>
+            <nav>
+                <ul class="navbar">
+                    <li><a href="HomePage.html">Home</a></li>
+                    <li class="dropdown">
+                        <a href="#tables" class="dropbtn">Tables</a>
+                        <ul class="dropdown-content">
+                            <a href="SelectTableDomains.php">Domains</a>
+                            <a href="SelectTableMedia.php">Media</a>
+                            <a href="SelectTableCategories.php">Categories</a>
+                            <a href="SelectTableEpisodes.php">Episodes</a>
+                            <a href="displaycast.php">Cast</a>
+                            <a href="SelectTableServers.php">Servers</a>
+                            <a href="McastSelect.php">Media Cast</a>
+                            <a href="reportroles.php">Roles</a>
+                            <a href="SelectTableSPM.php">Media Servers</a>
+                            <a href="PlanSelect.php">Plans</a>
+                            <a href="1SelectTable.php">Users</a>
+                            <a href="displaysub.php">Subscriptions</a>
+                            <a href="SelectTableAd.php">Ads</a>
+                            <a href="report_media_ads.php">Media Ads</a>
+                        </ul>
+                    </li>
+
+                    <li class="dropdown"><a href="#search" class="dropbtn">Search</a>
+                    <ul class="dropdown-content">
+                        <a href="TableDomain.php">Domains</a>
+                        <a href="TableMedia.php">Media</a>
+                        <a href="TableCat.php">Categories </a>
+                        <a href="TableEpisodes.php">Episodes</a>
+                        <a href="searchcast.php">Cast</a>
+                        <a href="TableServers.php">Servers</a>
+                        <a href="McastTable.php">Media Cast</a>
+                        <a href="searchrole.php">Role</a>
+                        <a href="TableSPM.php">Media Servers</a>
+                        <a href="PlanTable.php">Plans</a>
+                        <a href="2Table.php">Users</a>
+                        <a href="searchsub.php">Subscriptions</a>
+                        <a href="AdTable.php">Ads</a>
+                        <a href="search_media.php">Media Ads</a>
+
+                    </ul></li>
+
+                    <li class="dropdown"><a href="#add" class="dropbtn">Add to Database</a>
+                        <ul class="dropdown-content">
+                            <a href="DomainInsertsDataIn.php">Add Domain</a>
+                            <a href="MediaInsertsDataIn.php">Add Media</a>
+                            <a href="CatInsertsDataIn.php">Add Category</a>
+                            <a href="EpisodeDataIn.php">Add Episodes</a>
+                            <a href="insertcast.php">Add Cast</a>
+                            <a href="ServerInsertsDataIn.php">Add Server</a>
+                            <a href="McastDataIn.php">Add Media Cast</a>
+                            <a href="roleinsert.php">Add Role</a>
+                            <a href="SPMInsertsDataIn.php">Add Media Server</a>
+                            <a href="PlanDataIn.php">Add Plans</a>
+                            <a href="4InsertsDataIn.php">Add User</a>
+                            <a href="insertsub.php">Add Subscriptions</a>
+                            <a href="AdsDataIn.php">Add an Ad</a>
+                            <a href="enter_media_ads.php"> Add a Media Ad</a>
+                        </ul></li>
+
+                        <li class="dropdown"><a href="#samples" class="dropbtn">Sample Queries</a>
+                            <ul class="dropdown-content">
+                                <a href="activeMediaServers.php">Active Media Servers</a>
+                                <a href="inactiveMediaServers.php">Inactive Media Servers</a>
+                                <a href="mediaRatings.php">Above Average Media</a>
+                                <a href="mediaEpisodeCount.php">Longest and Shortest Media</a>
+                                <a href="2023Users.php">Users from 2023</a>
+                                <a href="userPlanamt.php">Amount of Users in Each Plan</a>
+                                <a href="mediaViewership.php">Media Viewership</a>
+                                <a href="adsByDuration.php">Ad Durations</a>
+                                <a href="allDomainswithxShowTable.php">Domains For Media</a>
+                                <a href="adCountPerMedia.php">Media Ad Count</a>
+                                <a href="3UserDataIn.php">Edit User Subscriptions </a>
+    
+                            </ul>
+                        </li>
+
+                    <li><a href="#Entity Relationship Diagram">ER Diagram</a></li>
+                    <li><a href="#Relational Schema">Schema</a></li>
+
+
+                    
+
+                </ul>
+            </nav>
+            
+            
+
+        </header>
+
+        <h2>This is a Streaming Guide Database to show information on different streaming services!</h2>
+        
+        <section id="Entity Relationship Diagram">
+            <div class="jumbotron">
+                <h1 class="display-3">Entity Relationship Diagram</h1>
+                <p class="lead">This is the ER Diagram used to guide building this database</p>
+                <hr class="my-2">
+                </p>
+                <img src="SG_ER Diagram.png" alt="Streaming Guide ER Diagram" class="resize"></img>
+            </div>
+        </section>
+
+        <section id="Relational Schema">
+            <div class="jumbotron">
+                <div class="container">
+                    <h1 class="display-3">Relational Schema</h1>
+                    <p class="lead">This is the relational schema used to build this database</p>
+                    <hr class="my-2">
+                </p>
+                </div>
+                <img src="SGRSchema.png" alt="Streaming Guide Relational Schema" class="resize"></img>
+            </div>
+        </section>
+        
+        <footer id="footer" role="contentinfo"> This database was constructed through the combined efforts of R. Gayle, J. McCullagh, and M. Cisco. 
+        </footer>
+<!-- Scrapped content
+        <li class="dropdown"><a href="#" class="dropbtn" >DropDowns</a>
+                        <ul class="dropdown-content">
+                            <a href="DomainDropDown.php">Domains</a>
+                            <a href="CatDropDown.php">Categories</a>
+                            <a href="MediaDropDown.php">Media</a>
+                            <a href="ServerDropDown.php">Servers</a>
+                            <a href="5DropDown.php">Users</a>
+                            <a href="PlanDropDown.php">Plans</a>
+                        </ul></li>
+-->
+    </body>
+</html>
